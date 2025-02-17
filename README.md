@@ -205,10 +205,13 @@ After compilation, you can open the **RTL Viewer** in Quartus to visualize how t
 ## Test Bench & Demo Videos
 
 ### 1. Simulation Test Benches
-- **PWM_DAC Test Bench**: [Link]  
+- **PWM_DAC Test Bench**:  
   Explains how duty cycle affects output waveforms in ModelSim.  
-- **binary_bcd Test Bench**: [Link]  
+- **binary_bcd Test Bench**: 
   Shows the shift-and-add-3 process for various binary inputs.
+ 
+[![Watch Test Bench Demo](https://img.youtube.com/vi/_nQB8vx5xzw/0.jpg)](https://youtu.be/_nQB8vx5xzw)
+  
 
 
 ---
@@ -236,7 +239,7 @@ After compilation, you can open the **RTL Viewer** in Quartus to visualize how t
 
 
 ## Contact
-Created by **[Your Name]**  
+Created by **Yazan**  
 Email: [ychama15@gmail.com](mailto:ychama15@gmail.com)  
  
 Questions, suggestions, or contributions? Feel free to reach out or open an issue!

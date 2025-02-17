@@ -21,7 +21,6 @@
 7. [Usage](#usage)  
 8. [Test Bench & Demo Videos](#test-bench--demo-videos)  
    1. [Simulation Test Benches](#1-simulation-test-benches)  
-   2. [Physical Device Demo](#2-physical-device-demo)  
 9. [Troubleshooting](#troubleshooting)  
 10. [License](#license)  
 11. [Contact](#contact)
@@ -34,8 +33,14 @@ This project implements a **parking sensor** system on the **DE10-Lite FPGA boar
 - **Distance-Based 7-Segment Flashing** (faster flash as target gets closer)  
 - **Distance-Based Buzzer Tone** (higher pitch as target nears)
 
-**Setup**:  
-![Setup](media/connections.PNG)  
+
+**Setup**
+![Setup](media/connections.PNG)
+
+**Demo**
+This is a video of the DE10-Lite board with the ultrasonic sensor and buzzer. Demonstrate the LED brightness changing, 7-seg flashing, and buzzer pitch variations as the sensor detects distance changes.
+[![Watch Setup Demo](https://img.youtube.com/vi/hazvd3pE4nA/0.jpg)](https://youtu.be/hazvd3pE4nA)
+
 
 ---
 
@@ -198,7 +203,6 @@ After compilation, you can open the **RTL Viewer** in Quartus to visualize how t
 ---
 
 ## Test Bench & Demo Videos
-Here you can link or embed any videos of your simulations and real hardware demonstrations.
 
 ### 1. Simulation Test Benches
 - **PWM_DAC Test Bench**: [Link]  
@@ -206,9 +210,6 @@ Here you can link or embed any videos of your simulations and real hardware demo
 - **binary_bcd Test Bench**: [Link]  
   Shows the shift-and-add-3 process for various binary inputs.
 
-### 2. Physical Device Demo
-- **Live Demo**: [Link]  
-  Video of the DE10-Lite board with the ultrasonic sensor and buzzer. Demonstrate the LED brightness changing, 7-seg flashing, and buzzer pitch variations as the sensor detects distance changes.
 
 ---
 

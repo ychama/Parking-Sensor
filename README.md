@@ -229,16 +229,6 @@ After compilation, you can open the **RTL Viewer** in Quartus to visualize how t
 
 ---
 
-In the snippet above:
-
-- Each image is placed under the `#### Simulation Snapshots` heading.
-- The path `media/<filename>.png` is used to reference the images stored in the `media` folder.
-- A short figure caption is provided after each image in blockquote format for clarity (optional but often helpful).
-
-Feel free to rearrange these images under specific subheadings if they correspond to particular test benches.
-
----
-
 ## Troubleshooting
 
 - **LED Always Off or Fully On**  

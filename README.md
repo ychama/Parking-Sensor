@@ -1,6 +1,18 @@
 
 # Ultrasonic Parking Sensor with PWM Alerts
 
+## Setup
+
+![Setup](media/connections.PNG)
+
+## Demo
+This is a video of the DE10-Lite board with the ultrasonic sensor and buzzer.  
+It demonstrates the LED brightness changing, 7-segment display flashing,  
+and buzzer pitch variations as the sensor detects distance changes.
+
+[![Watch Setup Demo](https://img.youtube.com/vi/hazvd3pE4nA/0.jpg)](https://youtu.be/hazvd3pE4nA)
+
+
 ## Table of Contents
 1. [Introduction](#introduction)  
 2. [Project Overview](#project-overview)  
@@ -19,11 +31,9 @@
    10. [binary_bcd (voltage_binary_bcd)](#10-binary_bcd-voltage_binary_bcd)  
 6. [Build & Simulation Instructions](#build--simulation-instructions)  
 7. [Usage](#usage)  
-8. [Test Bench & Demo Videos](#test-bench--demo-videos)  
-   1. [Simulation Test Benches](#1-simulation-test-benches)  
+8. [Simulation Test Benches](#8-simulation-test-benches)
 9. [Troubleshooting](#troubleshooting)  
-10. [License](#license)  
-11. [Contact](#contact)
+10. [Contact](#contact)
 
 ---
 
@@ -32,17 +42,6 @@ This project implements a **parking sensor** system on the **DE10-Lite FPGA boar
 - **Distance-Based LED Brightness** (via PWM)  
 - **Distance-Based 7-Segment Flashing** (faster flash as target gets closer)  
 - **Distance-Based Buzzer Tone** (higher pitch as target nears)
-
-**Setup**
-
-![Setup](media/connections.PNG)
-
-**Demo**  
-This is a video of the DE10-Lite board with the ultrasonic sensor and buzzer.  
-It demonstrates the LED brightness changing, 7-segment display flashing,  
-and buzzer pitch variations as the sensor detects distance changes.
-
-[![Watch Setup Demo](https://img.youtube.com/vi/hazvd3pE4nA/0.jpg)](https://youtu.be/hazvd3pE4nA)
 
 ---
 
@@ -203,7 +202,7 @@ After compilation, you can open the **RTL Viewer** in Quartus to visualize how t
    - Upon release, the system restarts from default.
 
 
-### 1. Simulation Test Benches
+### 8. Simulation Test Benches
 
 #### Simulation Snapshots
 

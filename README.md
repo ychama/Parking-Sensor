@@ -35,6 +35,7 @@ This project implements a **parking sensor** system on the **DE10-Lite FPGA boar
 
 
 **Setup**
+This is what the test setup should look like
 ![Setup](media/connections.PNG)
 
 **Demo**
@@ -200,19 +201,40 @@ After compilation, you can open the **RTL Viewer** in Quartus to visualize how t
    - If you implemented a `reset_n`, pressing it resets the internal registers/counters.  
    - Upon release, the system restarts from default.
 
----
-
-## Test Bench & Demo Videos
 
 ### 1. Simulation Test Benches
-- **PWM_DAC Test Bench**:  
-  Explains how duty cycle affects output waveforms in ModelSim.  
-- **binary_bcd Test Bench**: 
-  Shows the shift-and-add-3 process for various binary inputs.
- 
-[![Watch Test Bench Demo](https://img.youtube.com/vi/_nQB8vx5xzw/0.jpg)](https://youtu.be/_nQB8vx5xzw)
-  
 
+#### Simulation Snapshots
+
+![Down Counter Simulation](media/down_counter_simulation.png)
+> *Figure: Down Counter Simulation*
+
+![Module 2 Simulation](media/module_2_simulation.png)
+> *Figure: Module 2 Simulation*
+
+![Module Simulation](media/module_simulation.png)
+> *Figure: Module Simulation*
+
+![PWM DAC Simulation](media/pwm_dac_simulation.png)
+> *Figure: PWM DAC Simulation*
+
+![PWM Seven Segment Simulation](media/pwm_sevenseg_simulation.png)
+> *Figure: PWM Seven-Segment Simulation*
+
+![Top-Level Simulation](media/top_level_simulation.png)
+> *Figure: Top-Level Simulation*
+
+[![Watch Test Bench Demo](https://img.youtube.com/vi/_nQB8vx5xzw/0.jpg)](https://youtu.be/_nQB8vx5xzw)
+
+---
+
+In the snippet above:
+
+- Each image is placed under the `#### Simulation Snapshots` heading.
+- The path `media/<filename>.png` is used to reference the images stored in the `media` folder.
+- A short figure caption is provided after each image in blockquote format for clarity (optional but often helpful).
+
+Feel free to rearrange these images under specific subheadings if they correspond to particular test benches.
 
 ---
 

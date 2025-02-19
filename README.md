@@ -42,7 +42,7 @@ This is a video of the DE10-Lite board with the ultrasonic sensor and buzzer.
 It demonstrates the LED brightness changing, 7-segment display flashing,  
 and buzzer pitch variations as the sensor detects distance changes.
 
-[![Watch Setup Demo](https://img.youtube.com/vi/hazvd3pE4nA/0.jpg)](https://youtu.be/hazvd3pE4nA)
+[![Watch Setup Demo](https://img.youtube.com/vi/hazvd3pE4nA/maxresdefault.jpg)](https://youtu.be/hazvd3pE4nA)
 
 ---
 
@@ -225,7 +225,7 @@ After compilation, you can open the **RTL Viewer** in Quartus to visualize how t
 ![Top-Level Simulation](media/top_level_simulation.png)
 > *Figure: Top-Level Simulation*
 
-[![Watch Test Bench Demo](https://img.youtube.com/vi/_nQB8vx5xzw/0.jpg)](https://youtu.be/_nQB8vx5xzw)
+[![Watch Test Bench Demo](https://img.youtube.com/vi/_nQB8vx5xzw/maxresdefault.jpg)](https://youtu.be/_nQB8vx5xzw)
 
 ---
 

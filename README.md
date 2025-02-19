@@ -33,15 +33,16 @@ This project implements a **parking sensor** system on the **DE10-Lite FPGA boar
 - **Distance-Based 7-Segment Flashing** (faster flash as target gets closer)  
 - **Distance-Based Buzzer Tone** (higher pitch as target nears)
 
-
 **Setup**
-This is what the test setup should look like
+
 ![Setup](media/connections.PNG)
 
-**Demo**
-This is a video of the DE10-Lite board with the ultrasonic sensor and buzzer. Demonstrate the LED brightness changing, 7-seg flashing, and buzzer pitch variations as the sensor detects distance changes.
-[![Watch Setup Demo](https://img.youtube.com/vi/hazvd3pE4nA/0.jpg)](https://youtu.be/hazvd3pE4nA)
+**Demo**  
+This is a video of the DE10-Lite board with the ultrasonic sensor and buzzer.  
+It demonstrates the LED brightness changing, 7-segment display flashing,  
+and buzzer pitch variations as the sensor detects distance changes.
 
+[![Watch Setup Demo](https://img.youtube.com/vi/hazvd3pE4nA/0.jpg)](https://youtu.be/hazvd3pE4nA)
 
 ---
 
